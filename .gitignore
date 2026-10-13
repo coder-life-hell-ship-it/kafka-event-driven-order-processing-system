@@ -1,0 +1,35 @@
+
+# Maven build output
+**/target/
+
+# Java compiled files
+*.class
+
+# Logs
+*.log
+logs/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local databases and application data
+*.db
+*.mv.db
+*.trace.db
